@@ -12,7 +12,7 @@ Repository to upload the to-do project (back-end) and explain how to run it on *
 * Add the custom tap: **`brew tap mongodb/brew`**
 * Install mongodb: **`brew install mongodb-community`**
 * Start mongodb: **`brew services start mongodb-community`**
-* Connect and use mongodb: **`mongo`**
+* Connect and use mongodb: **`mongosh`**
 * Create a database: **`use merntodo`**
 
 * Useful commands
@@ -27,7 +27,7 @@ Repository to upload the to-do project (back-end) and explain how to run it on *
 * Recomendation: open three different terminal windows.
 * Database window
     * Start mongodb: **`brew services start mongodb-community`**
-    * Connect and use mongodb: **`mongo`**
+    * Connect and use mongodb: **`mongosh`**
     * Switch to the right database: **`use merntodo`**
 * Back-end window: **`npm start`**
 * Front-end window: **`npm start`**
